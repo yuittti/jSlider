@@ -48,4 +48,4 @@ You can specify your own interval and transition - to do this start slider with 
 
 *Tested: Chrome 39, Mozilla 40, Opera 32*
 
-[Live demo](http://yuittti.github.io/jslider/)
+[**Live demo**](http://yuittti.github.io/jslider/)
