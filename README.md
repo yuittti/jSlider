@@ -3,7 +3,7 @@
 
 **Usage:**
 
-Download zip file and upack into your project directory.
+[Download zip](https://github.com/yuittti/yuittti.github.io/blob/master/jslider/download/jSlider.zip?raw=true) file and upack into your project directory.
 
 Include jQuery library and *jSlider.js* into your *index.html* file
 
