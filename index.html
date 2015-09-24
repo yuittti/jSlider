@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+    <title>jQuery slider</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jSlider.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<div class="wrapper">
+
+    <h1>jSlider</h1>
+    <p>jQuery adaptive slider plugin</p>
+    <br>
+
+    <div id="mySlider">
+        <ul class="slider-box">
+            <li class="slider-item"><img src="img/4/img1.png"></li>
+            <li class="slider-item"><img src="img/4/img2.png"></li>
+            <li class="slider-item"><img src="img/4/img4.png"></li>
+
+            <!--Control buttons (left and right)-->
+            <a class="slider-left" role="button"></a>
+            <a class="slider-right" role="button"></a>
+
+            <ul class="slider-pointers">
+            <!--Leave empty - will be added from jSlider.js-->
+            </ul>
+        </ul>
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function(){
+        $("#mySlider").jSlider();
+    });
+</script>
+</body>
+</html>
